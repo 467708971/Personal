@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 #guoba{
-    margin: 200px;
+    margin: 100px;
     display: inline-block;
     position: relative;
-}
-#guoba >.front:hover{
-    opacity: 0;
 }
 #guoba >.front{
     position: absolute;
     z-index: 2;
+    animation: front infinite 2s;
 }
+@keyframes front{
+    0% , 80%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 #guoba >.back{
     position: absolute;
     z-index: 1;
