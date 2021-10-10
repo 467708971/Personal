@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#guoba{
+    margin: 200px;
+    display: inline-block;
+    position: relative;
+}
+#guoba >.front:hover{
+    opacity: 0;
+}
+#guoba >.front{
+    position: absolute;
+    z-index: 2;
+}
+#guoba >.back{
+    position: absolute;
+    z-index: 1;
+}
