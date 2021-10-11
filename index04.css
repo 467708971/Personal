@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#dog{
+
+    margin: 200px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+    display: inline-block;
+}
+#dog:hover > .first{
+    transform: rotate(90deg);
+    transform: scale(1.5);
+   
+}
+#dog:hover > .second{
+    opacity: 0;
+
+}
+#dog:hover > .third{
+    opacity: 1;
+
+}
+#dog >.first{
+    outline: 1px solid red;
+    width:160px;
+    height: 160px;
+    transform: rotate(45deg);
+    position: absolute;
+    transition: all ease-in-out 1s;
+}
+#dog >.second{
+    opacity: 1;
+    position: absolute;
+    font-size: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease-in-out 1s;
+}
+#dog >.third{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    line-height: 1;
+    width: 220px;
+    text-align: center;
+    opacity: 0;
+    transition: all ease-in-out 1s ;
+}
