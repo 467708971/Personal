@@ -10,6 +10,13 @@
     height: 100%;
     float: left;
 }
+#border02{
+    margin-right: 7%;
+    margin-top: 7%;
+    width: 15%;
+    height: 100%;
+    float: right;
+}
 #border01 >.no1{
     margin-top: 50%;
     margin-left: 33%;
@@ -67,7 +74,8 @@
     position: relative;
     float: right;
     margin-right: 7%;
-    margin-top: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     width: 120px;
     height: 120px;
 }
@@ -118,7 +126,8 @@
     position: relative;
     float: right;
     margin-right: 7%;
-    margin-top: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     width: 120px;
     height: 120px;
 }
@@ -169,7 +178,8 @@
     position: relative;
     float: right;
     margin-right: 7%;
-    margin-top: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
     width: 120px;
     height: 120px;
 }
