@@ -7,6 +7,8 @@
     word-break: break-all;
     width: 60%;
     float: left;
+    padding: 20px;
+    font-family: Fira Code;
 }
 #div1Wrapper{
     position: fixed;
