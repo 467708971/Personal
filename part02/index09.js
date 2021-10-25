@@ -56,7 +56,9 @@ $('.addButton')
             if (url.indexOf('http') != 0) {
                 url = 'https://' + url;
             }
-            if(logo !== idcode.value){
+            if(logo === idcode.value && logo){
+                logo = logo;
+            }else{
                 logo = removeX(url)[0].toUpperCase()
             }
             hashMap.push({
@@ -70,7 +72,7 @@ $('.addButton')
         render()
     });
 
-
+    
 window.onbeforeunload = ()=>{
     const string = JSON.stringify(hashMap)
     localStorage.setItem('x',string)
