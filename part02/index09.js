@@ -68,7 +68,7 @@ $('.addButton')
             render()
             layer.close(index);
           });
-          $(".layui-layer-content").append("<br/><input id= \"idcode\" class=\"layui-layer-input\" placeholder=\"输入简称\"/ value='' >")
+          $(".layui-layer-content").append("<br/><input id= \"idcode\" class=\"layui-layer-input\" placeholder=\"输入简称(一个字)\"/ value='' >")
         render()
     });
 
