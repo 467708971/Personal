@@ -4,8 +4,12 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 
 window.hashMap = xObject || [
-    {logo:'A',url:'https://www.acfun.cn'},
-    {logo:'B',url:'https://www.bilibili.com'}
+    {logo:'B',url:'https://www.bilibili.com'},
+    {logo:'P',url:'https://www.pixilart.com'},
+    {logo:'寄',url:'https://github.com/'},
+    {logo:'码',url:'https://xiedaimala.com/'},
+    {logo:'麦',url:'https://www.mcdonalds.com.cn/'},
+    {logo:'批',url:'https://bbs.mihoyo.com/ys/'}
 ]
 const removeX = (url)=>{
     return url.replace('https://','')
