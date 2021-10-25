@@ -72,7 +72,7 @@ $('.addButton')
         render()
     });
 
-    
+
 window.onbeforeunload = ()=>{
     const string = JSON.stringify(hashMap)
     localStorage.setItem('x',string)
