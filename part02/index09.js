@@ -5,12 +5,12 @@ const xObject = JSON.parse(x)
 
 window.hashMap = xObject || [
     {logo:'S11',url:'https://www.bilibili.com/blackboard/activity-gMw1DlvxeG.html?spm_id_from=333.337.0.0'},
-    {logo:'B',url:'https://www.bilibili.com'},
-    {logo:'P',url:'https://www.pixilart.com'},
-    {logo:'G',url:'https://github.com/'},
-    {logo:'码',url:'https://xiedaimala.com/'},
-    {logo:'麦',url:'https://www.mcdonalds.com.cn/'},
-    {logo:'原',url:'https://bbs.mihoyo.com/ys/'}
+    {logo:'BiLi',url:'https://www.bilibili.com'},
+    {logo:'Pixil',url:'https://www.pixilart.com'},
+    {logo:'GitHub',url:'https://github.com/'},
+    {logo:'XDML',url:'https://xiedaimala.com/'},
+    {logo:'麦麦',url:'https://www.mcdonalds.com.cn/'},
+    {logo:'米游社',url:'https://bbs.mihoyo.com/ys/'}
 ]
 const removeX = (url)=>{
     return url.replace('https://','')
@@ -68,7 +68,7 @@ $('.addButton')
             render()
             layer.close(index);
           });
-          $(".layui-layer-content").append("<br/><input id= \"idcode\" class=\"layui-layer-input\" placeholder=\"输入简称(一个字)\"/ value='' >")
+          $(".layui-layer-content").append("<br/><input id= \"idcode\" class=\"layui-layer-input\" placeholder=\"输入简称\"/ value='' >")
         render()
     });
 
