@@ -49,7 +49,7 @@ body{
 
 }
 .siteList{
-    margin: 30px;
+    margin: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
