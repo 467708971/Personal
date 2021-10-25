@@ -21,6 +21,15 @@ ul,ol{
 }
 body{
     background: #eeeeee;
+
+}
+@media (min-width:500px) {
+    body{
+        background-image: url(../image/yuanshan.jpg);
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+        background-position:center 0;
+    }
 }
 .globalHeader{
     margin: 40px;
