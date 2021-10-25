@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+*::before,*::after{
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background: #eeeeee;
+}
+.globalHeader{
+    margin: 40px;
+}
+.searchForm{
+    display: flex;
+    justify-content: space-between;
+}
+.searchForm >input{
+    width: 100%;
+    height: 3em;
+    margin-right: 10px;
+    padding-left: 0.5em;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+.searchForm >button{  
+    white-space: nowrap;
+    padding: 0 8px;
+    border: none;
+    background: #004da5;
+    border-radius: 4px;
+    color: rgb(235, 235, 235);
+}
+.globalMain{
+
+}
+.siteList{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.siteList >li{
+    margin-bottom: 15px;
+}
+.siteList .site{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 10px 0;
+    position: relative;
+}
+.siteList .site >.logo{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.siteList .site >.link{
+    margin: 10px 0;
+}
+.siteList .site >.close{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.siteList .addButton{
+    width: 160px;
+    border: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    background: white;
+    border-radius: 4px;
+}
+.siteList .addButton .icon{
+    width: 60px;
+    height: 60px;
+}
+.siteList .addButton .text{
+    margin: 10px 0;
+}
+.siteList .addButton .icon-wrapper{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
