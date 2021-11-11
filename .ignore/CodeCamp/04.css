@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.main-section{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:500px){
+    main{
+        background-color: aquamarine;
+    }
+    body{
+        margin: 10px;
+    }
+}

@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#code{
+    word-break: break-all;
+    width: 25%;
+    float: left;
+    padding: 20px;
+    font-family: Fira Code;
+}
+#jscode{
+    word-break: break-all;
+    width: 25%;
+    position: fixed;
+    margin-left: 25%;
+    padding: 20px;
+    font-family: Fira Code;
+}
+button{
+    width: 60px;
+    height: 20px;
+    margin-left: 50%;
+    margin-top: 10px;
+    transform: translateX(-30px);
+    text-align: center;
+}
+#content{
+    position: fixed;
+    margin-left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+img{
+    opacity: 0;
+}
+#text{
+    /* width: 36%;
+    height: 84%; */
+    left: 7%;
+    top: 8%;
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    animation-name: textchange;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+@keyframes textchange{
+    0%{width: 0;height: 0;border: 1px solid white;}
+    100%{width: 36%;height: 84%;border: 4px solid pink;}
+}
+@keyframes textchangeback{
+    0%{width: 36%;height: 84%;border: 4px solid pink;}
+    100%{width: 0;height: 0;border: 1px solid white;}
+}
+@keyframes imgshow{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
