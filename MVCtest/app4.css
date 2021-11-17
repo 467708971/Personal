@@ -1,0 +1,25 @@
+#app4 {
+    border: 1px solid black;
+}
+
+#app4 .colorchange {
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid purple;
+    border-radius: 50%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#app4 .colorchange.active {
+    animation: colorchange 2s infinite alternate linear;
+}
+
+@keyframes colorchange {
+    0% {
+        background: white;
+    }
+    100% {
+        background: black;
+    }
+}

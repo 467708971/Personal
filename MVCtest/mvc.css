@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#global{
+    display: flex;
+    flex-wrap: wrap;
+}
+body > #global >section{
+    width: 50vw;
+    height: 50vh;
+}

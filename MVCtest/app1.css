@@ -1,0 +1,12 @@
+#app1{
+    border: 1px solid red;
+}
+#app1 button{
+    padding: 5px;
+    font-family: Fira Code;
+}
+#app1 span{
+    font-family: Fira Code;
+    font-size: 40px;
+    overflow-wrap: break-word;
+}
