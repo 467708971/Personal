@@ -1,0 +1,126 @@
+body {
+    background: rgb(192, 192, 192);
+}
+
+#leftpart {
+    width: 50vw;
+    height: 100vh;
+    background: rgb(49, 49, 49);
+    position: absolute;
+}
+
+#leftpart.leftmove {
+    animation-name: leftmove;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#leftpart.leftmove.none {
+    display: none;
+}
+
+#rightpart {
+    width: 50vw;
+    height: 100vh;
+    background: rgb(49, 49, 49);
+    right: 0;
+    position: absolute;
+}
+
+#rightpart.rightmove {
+    animation-name: rightmove;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#rightpart.rightmove.none {
+    display: none;
+}
+
+#center01 {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background: black;
+    left: 50vw;
+    top: 50vh;
+    margin-left: -10vw;
+    margin-top: -10vw;
+    z-index: 2;
+}
+
+#center01.rotate {
+    transform-origin: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#text01 {
+    z-index: 4;
+    position: absolute;
+    width: 20vw;
+    height: 50vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    font-family: KaiTi;
+}
+
+#text01.textchange {
+    animation-name: textchange;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        background: black;
+    }
+    100% {
+        transform: rotate(45deg);
+        background: whitesmoke;
+    }
+}
+
+@keyframes leftmove {
+    0% {
+        left: 0
+    }
+    100% {
+        left: -50vw
+    }
+}
+
+@keyframes rightmove {
+    0% {
+        right: 0
+    }
+    100% {
+        right: -50vw
+    }
+}
+
+@keyframes textchange {
+    0% {
+        color: white;
+        opacity: 1;
+        font-size: 10vw;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        color: black;
+        opacity: 1;
+        font-size: 7vw;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:467708971/shijiayu.github.io.git",
+  "author": "467708971 <467708971@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

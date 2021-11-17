@@ -1,0 +1,20 @@
+.background {
+    position: relative;
+    background: rgb(192, 192, 192);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+#me {
+    border: 4px dotted goldenrod;
+    width: 70vw;
+    height: 70vh;
+    left: 50%;
+    top: 50%;
+    margin-left: -35vw;
+    margin-top: -35vh;
+    position: absolute;
+    font-family: 楷体, 'Fira Code';
+}

@@ -1,0 +1,55 @@
+.icon {
+    width: 4em;
+    height: 4em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    margin-top: -2em;
+    margin-bottom: -2em;
+}
+
+.icon00 {
+    position: absolute;
+    z-index: 6;
+    width: 4em;
+    height: 5em;
+    left: 50vw;
+    top: 80vh;
+    margin-left: -2em;
+    margin-top: 2em;
+    padding-top: 1em;
+    color: black;
+    opacity: 0;
+    display: none;
+}
+
+.icon00.show {
+    display: block;
+    animation: iconshow 2s forwards;
+    opacity: 1;
+}
+
+.icon00.show.move {
+    animation: iconmove 1.3s infinite;
+}
+
+@keyframes iconmove {
+    0% {
+        top: 80vh;
+    }
+    50% {
+        top: 81vh;
+    }
+    100% {
+        top: 80vh;
+    }
+}
+
+@keyframes iconshow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

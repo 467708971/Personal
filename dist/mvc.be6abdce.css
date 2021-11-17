@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#global{
+    display: flex;
+    flex-wrap: wrap;
+}
+body > #global >section{
+    width: 50vw;
+    height: 50vh;
+}
+#app1{
+    border: 1px solid red;
+}
+#app1 button{
+    padding: 5px;
+    font-family: Fira Code;
+}
+#app1 span{
+    font-family: Fira Code;
+    font-size: 40px;
+    overflow-wrap: break-word;
+}
+#app2{
+    border: 1px solid blue;
+}
+#app2 li{
+    list-style: none;
+}
+#app2 li.selected{
+    background: blue;
+    color: red;
+}
+#app2 .tab-bar{
+    display: flex;
+}
+#app2 .tab-bar>li{
+    width: 50%;
+    border: 2px solid green;
+}
+#app2 .tab-content{
+
+}
+#app2 .tab-content>li{
+    display: none;
+}
+#app2 .tab-content>li.active{
+    display: block;
+}
+#app3 {
+    border: 1px solid green;
+}
+
+#app3 .square {
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid green;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    transition: transform 1s, border-radius 1s;
+}
+
+#app3 .square.active {
+    transform: translateX(15vw);
+    border-radius: 50%;
+}
+#app4 {
+    border: 1px solid black;
+}
+
+#app4 .colorchange {
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid purple;
+    border-radius: 50%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#app4 .colorchange.active {
+    animation: colorchange 2s infinite alternate linear;
+}
+
+@keyframes colorchange {
+    0% {
+        background: white;
+    }
+    100% {
+        background: black;
+    }
+}
+
+/*# sourceMappingURL=/mvc.be6abdce.css.map */
