@@ -1,1 +1,1 @@
-import "./icon01.css"
+import ("./icon01.css", { assert: { type: 'css' } })
