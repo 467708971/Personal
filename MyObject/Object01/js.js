@@ -1,4 +1,4 @@
-import "./css.css"
+import "./htmlcss.css"
 import "./page01.js"
 import "./page02.js"
 import "./page03.js"

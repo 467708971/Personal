@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/lenovo/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/lenovo/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"htmlcss.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -11451,7 +11451,7 @@ function scroll() {
 },{"jquery":"../node_modules/jquery/dist/jquery.js"}],"js.js":[function(require,module,exports) {
 "use strict";
 
-require("./css.css");
+require("./htmlcss.css");
 
 require("./page01.js");
 
@@ -11464,7 +11464,7 @@ require("./page04.js");
 require("./icon.js");
 
 require("./scroll.js");
-},{"./css.css":"css.css","./page01.js":"page01.js","./page02.js":"page02.js","./page03.js":"page03.js","./page04.js":"page04.js","./icon.js":"icon.js","./scroll.js":"scroll.js"}],"C:/Users/lenovo/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./htmlcss.css":"htmlcss.css","./page01.js":"page01.js","./page02.js":"page02.js","./page03.js":"page03.js","./page04.js":"page04.js","./icon.js":"icon.js","./scroll.js":"scroll.js"}],"C:/Users/lenovo/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -11492,7 +11492,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52962" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50476" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
