@@ -1,12 +1,26 @@
 {
-  "name": "1",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:467708971/shijiayu.github.io.git",
-  "author": "467708971 <467708971@qq.com>",
-  "license": "MIT",
-  "dependencies": {
-    "jQuery": "^1.7.4",
-    "jquery": "^3.6.0"
-  }
+    "name": "1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/467708971/shijiayu.github.io.git"
+    },
+    "author": "467708971 <467708971@qq.com>",
+    "license": "MIT",
+    "dependencies": {
+        "jQuery": "^1.7.4",
+        "jquery": "^3.6.0"
+    },
+    "bugs": {
+        "url": "https://github.com/467708971/shijiayu.github.io/issues"
+    },
+    "homepage": "https://github.com/467708971/shijiayu.github.io#readme",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "description": ""
 }
